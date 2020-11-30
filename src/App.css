@@ -1,0 +1,34 @@
+.todo-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.todo-item {
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 6px 20px -10px black;
+    text-align: center;
+}
+
+.urgent {
+    box-shadow: 0 6px 20px -10px red;
+}
+
+.delete {
+    background-color: rgb(205, 84, 84);
+    color: whitesmoke;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.urgent-input {
+    display: flex;
+    justify-content: center;
+}
